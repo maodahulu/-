@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button type="button" onclick="click()">click</button>
+  <script>
+    var elements=[3,5,6,8,2,4,7,9,1,10];
+    var pivotIndex=Math.floor(elements.length / 2);
+    var pivot=elements.splice(pivotIndex,1)[0];
+    console.log(elements.splice(pivotIndex,1))
+    console.log(elements.splice(pivotIndex,1)[0])
+    console.log(pivot)
+</script>
+  
+</body>
+</html>
